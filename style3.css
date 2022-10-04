@@ -404,6 +404,9 @@ p {
 }
 
 @media screen and (min-width: 1024px) {
+    .header{
+        height: 70px
+    }
   .header .container {
     margin: 0 auto;
   }
@@ -419,6 +422,9 @@ p {
     height: 100%;
     flex-direction: row;
     width: auto;
+    background-color: none;
+    margin-top: 0;
+    padding: 0;
   }
 
   .nav-item {
